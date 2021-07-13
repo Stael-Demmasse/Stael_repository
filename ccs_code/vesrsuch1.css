@@ -48,3 +48,38 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* font-family:  Helvetica, sans-serif; */
+}
+.home-trnasition {
+    transition: 2s ease-in-out;
+    transform: translateX(-100%);
+    /* width: 0; */
+}
+
+.home-ctn { 
+    height: auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} 
+#home-titel {
+    color: #4aa0e6;
+    font-size: 2em;
+}
+
+/* @keyframes fade {
+    from { background-color: greenyellow;}
+    to { background-color: #1b73e6;}
+}
+/** transition juste avant l'ouverture de l'application */
+.logo-img-oncharge {
+    transition: .1s ease-in-out;
+    position: fixed;
+    top: 50%;
